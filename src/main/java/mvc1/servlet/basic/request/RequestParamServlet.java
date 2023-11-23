@@ -13,6 +13,7 @@ public class RequestParamServlet extends HttpServlet {
 
     @Override
     protected void service(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+//        getParameter()는 GET URL 쿼리파라미터 형식과, POST FORM 형식 둘다 지원한다. 구분없이 사용할 수 있다.
 //        System.out.println("RequestParamServlet.service");
 
         System.out.println("--all params st");
@@ -38,7 +39,6 @@ public class RequestParamServlet extends HttpServlet {
             System.out.println("name = " + name);
         }
         System.out.println("duple named param ed");
-
 
     }
 }
