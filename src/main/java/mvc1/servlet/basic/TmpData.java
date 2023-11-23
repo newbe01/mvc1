@@ -1,8 +1,9 @@
 package mvc1.servlet.basic;
 
-import lombok.Getter;
-import lombok.Setter;
+import lombok.*;
 
+@AllArgsConstructor
+@Builder
 @Setter
 @Getter
 public class TmpData {
