@@ -23,7 +23,7 @@ success
   <li> username = <%=member.getUsername() %></li>
   <li> age = <%=member.getAge() %></li>
 </ul>
-<a href="/index.html"> main </a>
+<a href="/jsp/index.html"> main </a>
 
 </body>
 </html>

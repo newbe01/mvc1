@@ -14,6 +14,6 @@ success
   <li> username = ${member.username} </li>
   <li> age = ${member.age}</li>
 </ul>
-<a href="/index.html"> main </a>
+<a href="/jsp/index.html"> main </a>
 </body>
 </html>
