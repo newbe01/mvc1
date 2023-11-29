@@ -52,6 +52,4 @@ public class ResponseBodyController {
         return tmpData;
     }
 
-
-
 }
