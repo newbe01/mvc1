@@ -64,7 +64,7 @@ public class BasicItemController {
     public String addItemV2(Item item) {    // modelAttribute 생략 가능
 
         itemRepository.save(item);
-//        model.addAttribute("item", item); modelAttribute 에서 처리해줌
+//        model.addAttribute("item", item); modelAttribute 에서 처리해 줌
 
         return "basic/item";
     }
